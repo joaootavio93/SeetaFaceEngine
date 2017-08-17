@@ -1,0 +1,17 @@
+#!/usr/bin/gnuplot
+
+set term png
+set size .75,1
+set output "lfw_restricted_strict.png"
+set xtics .1
+set ytics .1
+set grid
+set size ratio -1
+set ylabel "true positive rate"
+set xlabel "false positive rate"
+set title "Image-Restricted, No Outside Data" font "giant"
+set key right bottom
+plot "roc_2.txt" using 2:1 with lines title "SeetaFace, original", \
+     "fisher-vector-faces-restricted.txt" using 2:1 with lines title "Fisher vector faces", \
+     "ROC-LFW-EigenPEP.txt" using 2:1 with lines title "Eigen-PEP", \
+     "POP-PEP.txt" using 2:1 with lines title "POP-PEP"

@@ -40,86 +40,78 @@
 #include <algorithm>
 
 namespace seeta {
-FaceIdentification::FaceIdentification(const char* model_path) {
-  recognizer = new Recognizer(model_path);
-}
+	FaceIdentification::FaceIdentification(const char* model_path) {
+		recognizer = new Recognizer(model_path);
+	}
 
-FaceIdentification::~FaceIdentification() {
-  delete recognizer;
-}
+	FaceIdentification::~FaceIdentification() {
+		delete recognizer;
+	}
 
-uint32_t FaceIdentification::LoadModel(const char* model_path) {
-  return recognizer->LoadModel(model_path);
-}
+	uint32_t FaceIdentification::LoadModel(const char* model_path) {
+		return recognizer->LoadModel(model_path);
+	}
 
-uint32_t FaceIdentification::feature_size() {
-  return recognizer->feature_size();
-}
+	uint32_t FaceIdentification::feature_size() {
+		return recognizer->feature_size();
+	}
 
-uint32_t FaceIdentification::crop_width() {
-  return recognizer->crop_width();
-}
+	uint32_t FaceIdentification::crop_width() {
+		return recognizer->crop_width();
+	}
 
-uint32_t FaceIdentification::crop_height() {
-  return recognizer->crop_height();
-}
+	uint32_t FaceIdentification::crop_height() {
+		return recognizer->crop_height();
+	}
 
-uint32_t FaceIdentification::crop_channels() {
-  return recognizer->crop_channels();
-}
+	uint32_t FaceIdentification::crop_channels() {
+		return recognizer->crop_channels();
+	}
 
-uint8_t FaceIdentification::CropFace(const ImageData &src_image,
-    const FacialLandmark* llpoint,
-    const ImageData &dst_image) {
-  if (src_image.num_channels != recognizer->crop_channels() ||
-    src_image.data == NULL) {
-    std::cout << "Face Recognizer: Error input image." << std::endl;
-    return 0;
-  }
-  if (dst_image.data == NULL) {
-    std::cout << "Face Recognizer: Error output image." << std::endl;
-    return 0;
-  }
-  float point_data[10];
-  for (int i = 0; i < 5; ++i) {
-	  point_data[i * 2] = llpoint[i].x;
-	  point_data[i * 2 + 1] = llpoint[i].y;
-  }
-  recognizer->Crop(src_image, point_data, dst_image);
-  return 1;
-}
+	uint8_t FaceIdentification::CropFace(const ImageData &src_image, const FacialLandmark* llpoint,	const ImageData &dst_image) {
+		if (src_image.num_channels != recognizer->crop_channels() || src_image.data == NULL) {
+			std::cout << "Face Recognizer: Error input image." << std::endl;
+			return 0;
+		}
 
-uint8_t FaceIdentification::ExtractFeature(const ImageData &cropImg, 
-    FaceFeatures const feats) {
-  if (feats == NULL) {
-    std::cout << "Face Recognizer: 'feats' must be initialized with size \
-           of GetFeatureSize(). " << std::endl;
-    return 0;
-  }
-  recognizer->ExtractFeature(cropImg.data, feats);
-  return 1;
-}
+		if (dst_image.data == NULL) {
+			std::cout << "Face Recognizer: Error output image." << std::endl;
+			return 0;
+		}
 
-uint8_t FaceIdentification::ExtractFeatureWithCrop(const ImageData &src_image, 
-    const FacialLandmark* llpoint, 
-    FaceFeatures const feats) {
-  float point_data[10];
-  for (int i = 0; i < 5; ++i) {
-	point_data[i * 2] = llpoint[i].x;
-	point_data[i * 2 + 1] = llpoint[i].y;
-  }
-  recognizer->ExtractFeatureWithCrop(src_image, point_data, feats);
-  return 1;
-}
+		float point_data[10];
+		for (int i = 0; i < 5; ++i) {
+			point_data[i * 2] = llpoint[i].x;
+			point_data[i * 2 + 1] = llpoint[i].y;
+		}
 
-float FaceIdentification::CalcSimilarity(FaceFeatures const fc1,
-    FaceFeatures const fc2,
-    long dim) {
-  if (dim == -1) {
-    dim = recognizer->feature_size();
-  }
-  return simd_dot(fc1, fc2, dim)
-	  / (sqrt(simd_dot(fc1, fc1, dim))
-	  * sqrt(simd_dot(fc2, fc2, dim)));
-}
+		recognizer->Crop(src_image, point_data, dst_image);
+		return 1;
+	}
+
+	uint8_t FaceIdentification::ExtractFeature(const ImageData &cropImg, FaceFeatures const feats) {
+		if (feats == NULL) {
+			std::cout << "Face Recognizer: 'feats' must be initialized with size \ of GetFeatureSize(). " << std::endl;
+			return 0;
+		}
+		recognizer->ExtractFeature(cropImg.data, feats);
+		return 1;
+	}
+
+	uint8_t FaceIdentification::ExtractFeatureWithCrop(const ImageData &src_image, const FacialLandmark* llpoint, FaceFeatures const feats) {
+		float point_data[10];
+		for (int i = 0; i < 5; ++i) {
+			point_data[i * 2] = llpoint[i].x;
+			point_data[i * 2 + 1] = llpoint[i].y;
+		}
+		recognizer->ExtractFeatureWithCrop(src_image, point_data, feats);
+		return 1;
+	}
+
+	float FaceIdentification::CalcSimilarity(FaceFeatures const fc1, FaceFeatures const fc2, long dim) {
+		if (dim == -1) {
+			dim = recognizer->feature_size();
+		}
+		return simd_dot(fc1, fc2, dim) / (sqrt(simd_dot(fc1, fc1, dim))	* sqrt(simd_dot(fc2, fc2, dim)));
+	}
 }

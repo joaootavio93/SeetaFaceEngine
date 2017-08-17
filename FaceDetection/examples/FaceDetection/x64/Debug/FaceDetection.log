@@ -1,0 +1,15 @@
+﻿  nms.cpp
+  image_pyramid.cpp
+  surf_mlp_model_reader.cpp
+  lab_boost_model_reader.cpp
+  fust.cpp
+  surf_feature_map.cpp
+  lab_feature_map.cpp
+  face_detection.cpp
+  surf_mlp.cpp
+  mlp.cpp
+  lab_boosted_classifier.cpp
+  Generating Code...
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.exp
+  FaceDetection.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.dll
+  FaceDetection.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\FaceDetection.pdb (Full PDB)

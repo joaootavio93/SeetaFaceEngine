@@ -84,8 +84,7 @@ public:
     return 1;
   }
 
-  uint8_t Crop(const ImageData &src_img, const float* const points,
-      const ImageData &dst_img) {
+  uint8_t Crop(const ImageData &src_img, const float* const points, const ImageData &dst_img) {
     aligner_->Alignment(src_img, points, dst_img);
     return 1;
   }

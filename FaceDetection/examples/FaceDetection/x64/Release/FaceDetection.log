@@ -1,0 +1,17 @@
+﻿  lab_boosted_classifier.cpp
+  mlp.cpp
+  surf_mlp.cpp
+  face_detection.cpp
+  lab_feature_map.cpp
+  surf_feature_map.cpp
+  fust.cpp
+  lab_boost_model_reader.cpp
+  surf_mlp_model_reader.cpp
+  image_pyramid.cpp
+  nms.cpp
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\FaceDetection.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\FaceDetection.exp
+  Generating code
+  All 1814 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FaceDetection.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\FaceDetection.dll
+  FaceDetection.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\FaceDetection.pdb (Full PDB)

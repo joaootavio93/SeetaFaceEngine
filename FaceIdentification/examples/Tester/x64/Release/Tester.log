@@ -1,0 +1,17 @@
+﻿  test_face_recognizer.cpp
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(44): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(46): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(47): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(53): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(70): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(71): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(79): warning C4010: single-line comment contains line-continuation character
+..\..\src\test\test_face_recognizer.cpp(296): warning C4003: not enough actual parameters for macro 'TEST'
+..\..\src\test\test_face_recognizer.cpp(307): warning C4101: 'start': unreferenced local variable
+..\..\src\test\test_face_recognizer.cpp(305): warning C4101: 'pt5': unreferenced local variable
+..\..\src\test\test_face_recognizer.cpp(339): warning C4003: not enough actual parameters for macro 'TEST'
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Tester.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Tester.exp
+test_face_recognizer.obj : error LNK2001: unresolved external symbol "public: bool __cdecl seeta::FaceAlignment::PointDetectLandmarks(struct seeta::ImageData,struct seeta::FaceInfo,struct seeta::FacialLandmark *)" (?PointDetectLandmarks@FaceAlignment@seeta@@QEAA_NUImageData@2@UFaceInfo@2@PEAUFacialLandmark@2@@Z)
+test_face_recognizer.obj : error LNK2001: unresolved external symbol "public: __cdecl seeta::FaceAlignment::~FaceAlignment(void)" (??1FaceAlignment@seeta@@QEAA@XZ)
+test_face_recognizer.obj : error LNK2001: unresolved external symbol "public: __cdecl seeta::FaceAlignment::FaceAlignment(char const *)" (??0FaceAlignment@seeta@@QEAA@PEBD@Z)
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Tester.exe : fatal error LNK1120: 3 unresolved externals

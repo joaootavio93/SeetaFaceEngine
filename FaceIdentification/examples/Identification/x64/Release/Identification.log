@@ -1,0 +1,90 @@
+﻿  bias_adder_net.cpp
+  blob.cpp
+..\..\src\blob.cpp(201): warning C4244: '=': conversion from 'const float' to 'unsigned char', possible loss of data
+  bn_net.cpp
+..\..\src\bn_net.cpp(73): warning C4305: '=': truncation from 'double' to 'float'
+  common_net.cpp
+..\..\src\common_net.cpp(83): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\common_net.cpp(84): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\common_net.cpp(85): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\common_net.cpp(108): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  conv_net.cpp
+  eltwise_net.cpp
+  inner_product_net.cpp
+  log.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(114): warning C4005: 'ERROR': macro redefinition
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\log.h(60): note: see previous definition of 'ERROR'
+  math_functions.cpp
+  max_pooling_net.cpp
+  net.cpp
+  pad_net.cpp
+  spatial_transform_net.cpp
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\spatial_transform_net.h(59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\src\spatial_transform_net.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\spatial_transform_net.cpp(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\spatial_transform_net.cpp(121): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(145): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(151): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(161): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(204): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+..\..\src\spatial_transform_net.cpp(218): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  tform_maker_net.cpp
+..\..\src\tform_maker_net.cpp(45): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\src\tform_maker_net.cpp(92): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\tform_maker_net.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\tform_maker_net.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\tform_maker_net.cpp(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\tform_maker_net.cpp(96): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  aligner.cpp
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\spatial_transform_net.h(59): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+..\..\tools\aligner.cpp(58): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+..\..\tools\aligner.cpp(58): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\tools\aligner.cpp(107): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+..\..\tools\aligner.cpp(107): warning C4305: 'initializing': truncation from 'double' to 'float'
+..\..\tools\aligner.cpp(109): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+..\..\tools\aligner.cpp(110): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+  face_identification.cpp
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(44): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(46): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(47): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(53): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(70): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(71): warning C4010: single-line comment contains line-continuation character
+C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(79): warning C4010: single-line comment contains line-continuation character
+..\..\tools\face_identification.cpp(43): warning C4273: 'seeta::FaceIdentification::FaceIdentification': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(48): note: see previous definition of '{ctor}'
+..\..\tools\face_identification.cpp(47): warning C4273: 'seeta::FaceIdentification::~FaceIdentification': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(50): note: see previous definition of '{dtor}'
+..\..\tools\face_identification.cpp(51): warning C4273: 'seeta::FaceIdentification::LoadModel': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(54): note: see previous definition of 'LoadModel'
+..\..\tools\face_identification.cpp(55): warning C4273: 'seeta::FaceIdentification::feature_size': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(57): note: see previous definition of 'feature_size'
+..\..\tools\face_identification.cpp(59): warning C4273: 'seeta::FaceIdentification::crop_width': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(60): note: see previous definition of 'crop_width'
+..\..\tools\face_identification.cpp(63): warning C4273: 'seeta::FaceIdentification::crop_height': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(63): note: see previous definition of 'crop_height'
+..\..\tools\face_identification.cpp(67): warning C4273: 'seeta::FaceIdentification::crop_channels': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(66): note: see previous definition of 'crop_channels'
+..\..\tools\face_identification.cpp(71): warning C4273: 'seeta::FaceIdentification::CropFace': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(72): note: see previous definition of 'CropFace'
+..\..\tools\face_identification.cpp(84): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+..\..\tools\face_identification.cpp(85): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+..\..\tools\face_identification.cpp(92): warning C4273: 'seeta::FaceIdentification::ExtractFeature': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(76): note: see previous definition of 'ExtractFeature'
+..\..\tools\face_identification.cpp(94): warning C4129: ' ': unrecognized character escape sequence
+..\..\tools\face_identification.cpp(101): warning C4273: 'seeta::FaceIdentification::ExtractFeatureWithCrop': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(81): note: see previous definition of 'ExtractFeatureWithCrop'
+..\..\tools\face_identification.cpp(104): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+..\..\tools\face_identification.cpp(105): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+..\..\tools\face_identification.cpp(111): warning C4273: 'seeta::FaceIdentification::CalcSimilarity': inconsistent dll linkage
+  C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(85): note: see previous definition of 'CalcSimilarity'
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Identification.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Identification.exp
+  Generating code
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\src\spatial_transform_net.cpp(233): warning C4715: 'SpatialTransformNet::Sampling': not all control paths return a value
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\src\spatial_transform_net.cpp(176): warning C4715: 'SpatialTransformNet::Sampling': not all control paths return a value
+  All 1550 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Identification.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Identification.dll
+  Identification.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Release\Identification.pdb (Full PDB)

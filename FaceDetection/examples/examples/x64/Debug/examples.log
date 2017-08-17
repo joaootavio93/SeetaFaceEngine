@@ -1,0 +1,23 @@
+﻿  lfw_test.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(44): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(46): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(47): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(53): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(70): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(71): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(79): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(282): warning C4305: '+=': truncation from 'double' to 'float'
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(544): warning C4305: '+=': truncation from 'double' to 'float'
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1738): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1788): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1790): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1801): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1803): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1822): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1824): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1835): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1837): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1847): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(1849): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\lfw_test.cpp(2036): warning C4715: 'ExtractFeats': not all control paths return a value
+LINK : fatal error LNK1168: cannot open C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Debug\examples.exe for writing

@@ -8,4 +8,7 @@
     <LocalDebuggerCommandArguments>..\..\data\0_1_1.jpg ..\..\model\seeta_fd_frontal_v1.0.bin</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
 </Project>

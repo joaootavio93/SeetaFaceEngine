@@ -1,0 +1,28 @@
+﻿  face_identification_test.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(44): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(46): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(47): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(53): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(70): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(71): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\..\..\..\FaceIdentification\include\face_identification.h(79): warning C4010: single-line comment contains line-continuation character
+face_identification_test.cpp(90): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(92): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(107): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(109): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(136): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(138): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(153): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(155): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(176): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(248): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(278): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(279): warning C4244: '=': conversion from 'int64' to 'long', possible loss of data
+face_identification_test.cpp(264): warning C4101: 'crop_ent': unreferenced local variable
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\examples.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceDetection\examples\x64\Release\examples.exp
+  Generating code
+c:\visual studio 2015\projects\seetafaceengine-master\facedetection\examples\examples\face_identification_test.cpp(283): error C4703: potentially uninitialized local pointer variable 'crop_dir' used
+  51 of 307 functions (16.6%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+LINK : fatal error LNK1257: code generation failed

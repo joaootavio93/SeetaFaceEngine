@@ -79,8 +79,7 @@ FaceDetection::~FaceDetection() {
     delete impl_;
 }
 
-std::vector<seeta::FaceInfo> FaceDetection::Detect(
-    const seeta::ImageData & img) {
+std::vector<seeta::FaceInfo> FaceDetection::Detect(const seeta::ImageData & img) {
   if (!impl_->IsLegalImage(img))
     return std::vector<seeta::FaceInfo>();
 

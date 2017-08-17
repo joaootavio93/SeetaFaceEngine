@@ -1,0 +1,10 @@
+﻿  test_face_recognizer.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(44): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(46): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(47): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(53): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(70): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(71): warning C4010: single-line comment contains line-continuation character
+c:\visual studio 2015\projects\seetafaceengine-master\faceidentification\include\face_identification.h(79): warning C4010: single-line comment contains line-continuation character
+  Tester.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Debug\Tester.exe
+  Tester.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceIdentification\examples\x64\Debug\Tester.pdb (Full PDB)

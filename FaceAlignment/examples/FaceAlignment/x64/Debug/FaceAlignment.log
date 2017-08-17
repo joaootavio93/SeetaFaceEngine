@@ -1,0 +1,21 @@
+﻿  sift.cpp
+  face_alignment.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\face_alignment.cpp(46): warning C4273: 'seeta::FaceAlignment::FaceAlignment': inconsistent dll linkage
+  c:\visual studio 2015\projects\seetafaceengine-master\facealignment\include\face_alignment.h(49): note: see previous definition of '{ctor}'
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\face_alignment.cpp(59): warning C4273: 'seeta::FaceAlignment::PointDetectLandmarks': inconsistent dll linkage
+  c:\visual studio 2015\projects\seetafaceengine-master\facealignment\include\face_alignment.h(61): note: see previous definition of 'PointDetectLandmarks'
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\face_alignment.cpp(79): warning C4273: 'seeta::FaceAlignment::~FaceAlignment': inconsistent dll linkage
+  c:\visual studio 2015\projects\seetafaceengine-master\facealignment\include\face_alignment.h(54): note: see previous definition of '{dtor}'
+  cfan.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(169): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(170): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(217): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(250): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(293): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(326): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(397): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\cfan.cpp(398): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+     Creating library C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\FaceAlignment.lib and object C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\FaceAlignment.exp
+  FaceAlignment.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\FaceAlignment.dll
+  FaceAlignment.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\FaceAlignment.pdb (Full PDB)

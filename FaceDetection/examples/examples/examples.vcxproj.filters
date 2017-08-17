@@ -18,5 +18,8 @@
     <ClCompile Include="..\..\src\test\facedetection_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lfw_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

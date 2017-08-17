@@ -1,0 +1,4 @@
+﻿  face_alignment_test.cpp
+c:\visual studio 2015\projects\seetafaceengine-master\facealignment\src\test\face_alignment_test.cpp(140): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  examples.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\examples.exe
+  examples.vcxproj -> C:\Visual Studio 2015\Projects\SeetaFaceEngine-master\FaceAlignment\examples\x64\Debug\examples.pdb (Full PDB)
